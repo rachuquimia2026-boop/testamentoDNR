@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Testamento Notarial – Derecho Boliviano</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#EEF1F4;--panel:#fff;--ink:#16243A;--mut:#5B6778;--line:#D5DBE3;--wax:#8C1D2C;--waxl:#F6E7E9;--ok:#1F6B4A;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0F1724;--panel:#172235;--ink:#E7ECF3;--mut:#9BA8BA;--line:#2B3A52;--wax:#E0778A;--waxl:#3A1C25;--ok:#5CC499}}
+:root[data-theme="dark"]{--bg:#0F1724;--panel:#172235;--ink:#E7ECF3;--mut:#9BA8BA;--line:#2B3A52;--wax:#E0778A;--waxl:#3A1C25;--ok:#5CC499}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 "Public Sans",system-ui,sans-serif}
+header{background:#16243A;color:#fff;padding:28px 24px 26px}
+header .in{max-width:1240px;margin:auto;display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+.seal{width:64px;height:64px;border-radius:50%;background:#8C1D2C;display:grid;place-items:center;font:700 26px "Libre Caslon Text",serif;color:#F3D9DD;box-shadow:0 0 0 4px #8C1D2C55,inset 0 0 0 3px #F3D9DD66;flex:none}
+h1{font:700 clamp(24px,4vw,36px)/1.15 "Libre Caslon Text",serif;margin:0}
+header p{margin:4px 0 0;color:#B9C5D6;font-size:14px}
+main{max-width:1240px;margin:auto;padding:22px 16px 60px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:22px}
+@media(max-width:940px){main{grid-template-columns:1fr}}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:20px}
+.steps{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px}
+.steps button{flex:1;min-width:92px;border:1px solid var(--line);background:transparent;color:var(--mut);padding:8px 6px;border-radius:6px;font:500 13px inherit;font-family:inherit;cursor:pointer}
+.steps button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.steps button.done:not(.on){border-color:var(--ok);color:var(--ok)}
+h2{font:700 22px "Libre Caslon Text",serif;margin:0 0 4px}
+.sub{color:var(--mut);margin:0 0 16px;font-size:14px}
+label{display:block;font-weight:500;font-size:13px;margin:12px 0 4px}
+input,select,textarea{width:100%;padding:9px 10px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);font:inherit}
+textarea{min-height:76px;resize:vertical}
+input:focus,select:focus,textarea:focus,button:focus-visible{outline:2px solid var(--wax);outline-offset:1px}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:0 12px}@media(max-width:520px){.g2{grid-template-columns:1fr}}
+.hint{font-size:12.5px;color:var(--mut);margin-top:4px}
+.note{background:var(--waxl);border-left:3px solid var(--wax);padding:10px 12px;border-radius:4px;font-size:13px;margin:14px 0}
+.nav{display:flex;justify-content:space-between;gap:10px;margin-top:20px}
+.btn{border:0;border-radius:6px;padding:10px 18px;font:600 14px inherit;font-family:inherit;cursor:pointer;background:var(--wax);color:#fff}
+.btn.sec{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.chk{display:flex;gap:10px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line);font-size:14px}
+.chk input{width:auto;margin-top:4px}.chk small{display:block;color:var(--mut)}
+.bar{height:8px;border-radius:4px;background:var(--line);overflow:hidden;margin:6px 0 2px}.bar i{display:block;height:100%;background:var(--wax);transition:width .3s}
+.ruta li{margin:8px 0}.ruta b{font-weight:600}
+.preview{position:sticky;top:12px;align-self:start}
+@media(max-width:940px){.preview{position:static}}
+.paper{background:#fff;color:#1a1a1a;border:1px solid #cfd5dd;border-radius:4px;padding:34px 36px 30px;font:14px/1.75 "Libre Caslon Text",Georgia,serif;text-align:justify;max-height:76vh;overflow:auto;box-shadow:0 2px 0 #cfd5dd,0 10px 24px #16243a1a}
+.paper h3{text-align:center;font-size:17px;margin:0 0 4px;letter-spacing:.3px}
+.paper .c{text-align:center;margin:0 0 14px;font-size:12.5px;color:#444}
+.paper p{margin:0 0 10px}.paper .ph{background:#F6E7E9;color:#8C1D2C;padding:0 3px;border-radius:2px}
+.paper .firmas{display:grid;grid-template-columns:1fr 1fr;gap:26px 20px;margin-top:26px;text-align:center;font-size:12.5px}
+.paper .firmas div{border-top:1px solid #222;padding-top:4px}
+.paper .pie{margin-top:22px;font-size:11.5px;color:#666;border-top:1px dashed #bbb;padding-top:8px;text-align:left}
+.pt{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.tag{font-size:12px;color:var(--mut)}
+@media print{body{background:#fff}header,.left,.pt,.nav{display:none}main{display:block;padding:0}.paper{max-height:none;border:0;box-shadow:none;padding:0}.preview .card{border:0;padding:0}}
+</style>
+</head>
+<body>
+<header><div class="in"><div class="seal" aria-hidden="true">§</div>
+<div><h1>Testamento notarial boliviano</h1>
+<p>Herramienta didáctica · Derecho Notarial y Registral · Universidad Real</p>
+<p>Docente: Raúl Chuquimia Callisaya</p></div></div></header>
+
+<main>
+<section class="left card">
+<div class="steps" id="steps"></div>
+<div id="view"></div>
+</section>
+
+<aside class="preview"><div class="card">
+<div class="pt"><button class="btn" onclick="window.print()">Imprimir / PDF</button><button class="btn sec" onclick="copiar()" id="cp">Copiar texto</button><span class="tag" id="prog"></span></div>
+<div class="paper" id="paper"></div>
+</div></aside>
+</main>
+
+<script>
+const D={lugar:'La Paz',fecha:new Date().toISOString().slice(0,10),notario:'',nnot:'',distrito:'',reg:'',
+t_nom:'',t_ci:'',t_edad:'',t_ec:'soltero(a)',t_nac:'boliviano(a)',t_prof:'',t_dom:'',
+conyuge:'',hijos:'',ascend:'',bienes:'',herederos:'',legados:'',albacea:'',revoca:'Sí',clausulas:'',
+w1n:'',w1c:'',w2n:'',w2c:'',c_cap:false,c_lib:false,c_id:false,c_test:false,c_lee:false,c_fir:false,c_prot:false,c_reg:false};
+const docente={n:'Raúl Chuquimia Callisaya',c:'Docente de Derecho Notarial y Registral, Universidad Real'};
+const STEPS=['Marco legal','Testador','Familia y bienes','Disposiciones','Notario y testigos','Verificación'];
+let cur=0;
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const inp=(k,l,t='text',ph='')=>`<label for="${k}">${l}</label><input id="${k}" type="${t}" value="${esc(D[k])}" placeholder="${ph}" oninput="D.${k}=this.value;draw()">`;
+const ta=(k,l,ph='',h='')=>`<label for="${k}">${l}</label><textarea id="${k}" placeholder="${ph}" oninput="D.${k}=this.value;draw()">${esc(D[k])}</textarea>${h?`<div class="hint">${h}</div>`:''}`;
+const sel=(k,l,o)=>`<label for="${k}">${l}</label><select id="${k}" onchange="D.${k}=this.value;draw()">${o.map(x=>`<option ${D[k]==x?'selected':''}>${x}</option>`).join('')}</select>`;
+const chk=(k,t,s)=>`<label class="chk"><input type="checkbox" ${D[k]?'checked':''} onchange="D.${k}=this.checked;draw();prog()"><span>${t}<small>${s}</small></span></label>`;
+
+const V=[
+()=>`<h2>Marco legal y ruta</h2><p class="sub">Qué exige el derecho boliviano para que un testamento sea válido.</p>
+<ol class="ruta"><li><b>Capacidad:</b> el testador debe tener capacidad de obrar y estar en su sano juicio al momento de otorgar el acto (Código Civil, Libro IV, sucesión testamentaria).</li>
+<li><b>Voluntad libre:</b> sin error, violencia ni dolo. El testamento es un acto personalísimo, unilateral y revocable.</li>
+<li><b>Forma:</b> este modelo es un <b>testamento abierto otorgado ante Notario de Fe Pública</b> y testigos idóneos, conforme a la Ley del Notariado Plurinacional (Ley N.º 483).</li>
+<li><b>Respeto de la legítima:</b> los herederos forzosos (descendientes, ascendientes y cónyuge) tienen cuota reservada; solo se dispone libremente de la porción disponible.</li>
+<li><b>Solemnidades:</b> identificación del testador, lectura íntegra, conformidad, firma de testador, testigos y notario; registro en el protocolo notarial.</li>
+<li><b>Después:</b> a la muerte, se abre la sucesión: certificado de defunción, declaratoria de herederos (vía notarial o judicial) y registro en Derechos Reales de los bienes sujetos a registro.</li></ol>
+<div class="note">Las cuotas y el número de testigos deben verificarse con el texto vigente del Código Civil (D.L. 12760) y la Ley 483. Esta herramienta es material didáctico y no reemplaza el acto notarial.</div>`,
+()=>`<h2>Datos del testador</h2><p class="sub">Identificación completa, como debe constar en la escritura.</p>
+${inp('t_nom','Nombre completo','text','Nombres y apellidos')}
+<div class="g2">${inp('t_ci','Cédula de identidad','text','N.º y expedido')}${inp('t_edad','Edad (años)','number')}</div>
+<div class="g2">${sel('t_ec','Estado civil',['soltero(a)','casado(a)','divorciado(a)','viudo(a)','en unión libre'])}${inp('t_nac','Nacionalidad')}</div>
+${inp('t_prof','Profesión u ocupación')}${inp('t_dom','Domicilio')}
+<div class="g2">${inp('lugar','Lugar de otorgamiento')}${inp('fecha','Fecha','date')}</div>`,
+()=>`<h2>Familia y bienes</h2><p class="sub">Determina quiénes son herederos forzosos y cuánto puede disponerse libremente.</p>
+${inp('conyuge','Cónyuge o conviviente','text','Nombre (si corresponde)')}
+${ta('hijos','Hijos y descendientes','Un nombre por línea')}
+${ta('ascend','Ascendientes (padres)','Un nombre por línea','Solo heredan forzosamente si no hay descendientes.')}
+${ta('bienes','Bienes del testador','Ej.: Inmueble en Zona Sur, folio real N.º …; vehículo …; cuenta bancaria …','Indica matrícula o folio real de inmuebles para facilitar el registro en Derechos Reales.')}
+<div class="note" id="leg"></div>`,
+()=>`<h2>Disposiciones testamentarias</h2><p class="sub">Institución de herederos, legados y designaciones.</p>
+${ta('herederos','Herederos y cuotas','Ej.: Mi hijo(a) … en 50 %; mi hijo(a) … en 50 %')}
+${ta('legados','Legados (opcional)','Ej.: Lego a … el bien …','El legado se imputa a la porción disponible.')}
+${inp('albacea','Albacea (ejecutor testamentario)','text','Nombre completo y C.I.')}
+${sel('revoca','¿Revoca testamentos anteriores?',['Sí','No'])}
+${ta('clausulas','Otras cláusulas (opcional)','Tutor de hijos menores, última voluntad sobre sepultura, etc.')}`,
+()=>`<h2>Notario y testigos</h2><p class="sub">Quienes dan fe y solemnidad al acto.</p>
+${inp('notario','Notario de Fe Pública','text','Nombre completo')}
+<div class="g2">${inp('nnot','N.º de Notaría')}${inp('distrito','Distrito judicial')}</div>
+${inp('reg','Resolución de designación / matrícula')}
+<div class="g2">${inp('w1n','Testigo 1 – nombre')}${inp('w1c','Testigo 1 – C.I.')}</div>
+<div class="g2">${inp('w2n','Testigo 2 – nombre')}${inp('w2c','Testigo 2 – C.I.')}</div>
+<div class="hint">Los testigos deben ser mayores de edad, hábiles, con capacidad, y no ser herederos ni legatarios.</div>`,
+()=>`<h2>Verificación de requisitos</h2><p class="sub">Marca cada requisito cumplido antes de firmar.</p>
+<div class="bar"><i id="pb"></i></div><div class="hint" id="pt"></div>
+${chk('c_cap','Capacidad del testador verificada','Mayoría de edad y sano juicio, constatado por el Notario.')}
+${chk('c_lib','Voluntad libre','Sin coacción, error ni dolo.')}
+${chk('c_id','Identidad acreditada','C.I. vigente del testador, testigos y notario identificados.')}
+${chk('c_test','Testigos idóneos presentes','Número exigido por ley; sin interés en la herencia.')}
+${chk('c_lee','Lectura íntegra y conformidad','El Notario lee el testamento y el testador lo ratifica.')}
+${chk('c_fir','Firmas y sello','Testador, testigos y Notario firman; se estampa el sello notarial.')}
+${chk('c_prot','Asiento en el protocolo','Se registra la escritura en el libro de protocolo notarial y se expide testimonio.')}
+${chk('c_reg','Registro posterior','A la muerte: declaratoria de herederos y registro en Derechos Reales.')}`
+];
+
+function legitima(){
+  const h=D.hijos.trim().split('\n').filter(x=>x.trim()).length,a=D.ascend.trim().split('\n').filter(x=>x.trim()).length,c=!!D.conyuge.trim();
+  let l,d;
+  if(h){l='4/5 (80 %)';d='1/5 (20 %)';}else if(a||c){l='2/3 (66,7 %)';d='1/3 (33,3 %)';}else{return 'Sin herederos forzosos declarados: el testador dispone libremente de todos sus bienes.'}
+  return `<b>Referencial:</b> legítima ${l} · porción disponible ${d}. Verifica las cuotas con el artículo vigente del Código Civil antes de redactar.`;
+}
+function ph(v,t){return v&&String(v).trim()?esc(v):`<span class="ph">[${t}]</span>`}
+function lines(s,t){const a=s.trim().split('\n').filter(x=>x.trim());return a.length?a.map(esc).join('; '):`<span class="ph">[${t}]</span>`}
+function fechaL(f){if(!f)return'';const d=new Date(f+'T12:00:00');return d.toLocaleDateString('es-BO',{day:'numeric',month:'long',year:'numeric'})}
+function draw(){
+  if(cur==2&&$('leg'))$('leg').innerHTML=legitima();
+  $('paper').innerHTML=`<h3>ESCRITURA PÚBLICA DE TESTAMENTO ABIERTO</h3>
+<div class="c">Notaría de Fe Pública N.º ${ph(D.nnot,'N.º')} · Distrito de ${ph(D.distrito,'distrito')}</div>
+<p>En la ciudad de ${ph(D.lugar,'lugar')}, a ${ph(fechaL(D.fecha),'fecha')}, ante mí, ${ph(D.notario,'Notario')}, Notario de Fe Pública (${ph(D.reg,'designación')}), y en presencia de los testigos ${ph(D.w1n,'testigo 1')}, C.I. ${ph(D.w1c,'C.I.')}, y ${ph(D.w2n,'testigo 2')}, C.I. ${ph(D.w2c,'C.I.')}, mayores de edad, hábiles e idóneos, comparece:</p>
+<p><b>${ph(D.t_nom,'testador')}</b>, C.I. ${ph(D.t_ci,'C.I.')}, de ${ph(D.t_edad,'edad')} años, de nacionalidad ${ph(D.t_nac,'nacionalidad')}, estado civil ${ph(D.t_ec,'estado civil')}, de profesión ${ph(D.t_prof,'profesión')}, con domicilio en ${ph(D.t_dom,'domicilio')}.</p>
+<p>Identificado el compareciente y habiendo constatado su capacidad y su libre voluntad, sin coacción alguna, declara otorgar su testamento conforme a las siguientes cláusulas:</p>
+<p><b>PRIMERA (Estado familiar).</b> ${D.conyuge.trim()?`Es cónyuge o conviviente ${esc(D.conyuge)}. `:''}Son sus descendientes: ${lines(D.hijos,'hijos')}. ${D.ascend.trim()?`Son sus ascendientes: ${lines(D.ascend,'padres')}.`:''}</p>
+<p><b>SEGUNDA (Bienes).</b> Declara como sus bienes: ${ph(D.bienes,'detalle de bienes')}.</p>
+<p><b>TERCERA (Institución de herederos).</b> Instituye como herederos a: ${ph(D.herederos,'herederos y cuotas')}, respetando en todo caso la legítima que la ley reserva a los herederos forzosos.</p>
+<p><b>CUARTA (Legados).</b> ${D.legados.trim()?esc(D.legados):'No dispone legados particulares.'}</p>
+<p><b>QUINTA (Albacea).</b> Designa como albacea a ${ph(D.albacea,'albacea')}, para el cumplimiento de su última voluntad.</p>
+<p><b>SEXTA (Revocación).</b> ${D.revoca=='Sí'?'Revoca expresamente cualquier testamento anterior.':'No revoca disposiciones testamentarias anteriores que no contradigan el presente.'}</p>
+${D.clausulas.trim()?`<p><b>SÉPTIMA (Otras disposiciones).</b> ${esc(D.clausulas)}</p>`:''}
+<p><b>CIERRE.</b> Leído íntegramente este testamento por el Notario en voz alta y en presencia de los testigos, el testador lo ratifica en todas sus partes y firma junto con los testigos y conmigo, Notario, que doy fe.</p>
+<div class="firmas"><div>${esc(D.t_nom)||'Testador'}<br>Testador</div><div>${esc(D.notario)||'Notario'}<br>Notario de Fe Pública</div><div>${esc(D.w1n)||'Testigo 1'}<br>Testigo</div><div>${esc(D.w2n)||'Testigo 2'}<br>Testigo</div></div>
+<div class="pie">Modelo didáctico elaborado para la asignatura de Derecho Notarial y Registral, Universidad Real. Docente: ${docente.n}. Base normativa: Código Civil boliviano (D.L. 12760), Ley del Notariado Plurinacional N.º 483.</div>`;
+}
+function prog(){
+  const k=Object.keys(D).filter(x=>x.startsWith('c_')),n=k.filter(x=>D[x]).length;
+  $('prog').textContent=n+' de '+k.length+' requisitos';
+  if($('pb')){$('pb').style.width=n/k.length*100+'%';$('pt').textContent=n==k.length?'Todos los requisitos de validez están cumplidos.':'Faltan '+(k.length-n)+' requisitos.';}
+}
+function go(i){cur=Math.max(0,Math.min(STEPS.length-1,i));render();window.scrollTo({top:0,behavior:'smooth'})}
+function render(){
+  $('steps').innerHTML=STEPS.map((s,i)=>`<button class="${i==cur?'on':''} ${i<cur?'done':''}" onclick="go(${i})">${s}</button>`).join('');
+  $('view').innerHTML=V[cur]()+`<div class="nav"><button class="btn sec" onclick="go(cur-1)" ${cur==0?'disabled style="opacity:.4"':''}>Anterior</button>${cur<STEPS.length-1?`<button class="btn" onclick="go(cur+1)">Siguiente</button>`:`<button class="btn" onclick="window.print()">Imprimir testamento</button>`}</div>`;
+  draw();prog();
+}
+function copiar(){
+  const t=$('paper').innerText;
+  (navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>{$('cp').textContent='Copiado'}).catch(()=>{const r=document.createRange();r.selectNodeContents($('paper'));const s=getSelection();s.removeAllRanges();s.addRange(r);$('cp').textContent='Texto seleccionado: usa Ctrl+C'});
+  setTimeout(()=>$('cp').textContent='Copiar texto',2500);
+}
+render();
+</script>
+</body>
+</html>
